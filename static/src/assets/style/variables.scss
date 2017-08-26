@@ -1,0 +1,40 @@
+$ms-scale: 1.5;
+
+// Fonts
+// ------
+$san-serif: 'Raleway', sans-serif;
+$serif: 'Bitter', serif;
+
+// Colors
+// ------
+// grayscale (light->dark)
+$white: #ffffff;
+$alabaster: #f9fafc;
+$white-smoke: #f3f5f9;
+$light-gray: #b5bcc9;
+$light-charcoal: #2a2b2d;
+
+// rgb
+$coral: #fe787c;
+$viking: #4dbece;
+
+// Layout
+// ------
+$ms0: 1em;
+$ms1: $ms0;
+$ms-1: $ms1/$ms-scale;
+$ms-2: $ms-1/$ms-scale;
+$ms2: $ms1*$ms-scale;
+$ms3: $ms2*$ms-scale;
+$ms4: $ms3*$ms-scale;
+$ms5: $ms4*$ms-scale;
+$ms6: $ms5*$ms-scale;
+
+// widths
+$border-width-sm: 0.0625em;
+
+// Transitions
+// -----------
+$transition-duration-fast: 200ms;
+$transition-default-easing: ease;
+$transition-all-fast: all $transition-duration-fast $transition-default-easing;

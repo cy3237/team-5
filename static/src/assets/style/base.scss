@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: $white-smoke;
+  color: $light-charcoal;
+  font-family: $san-serif;
+  font-size: $ms1;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: $serif;
+}
+
+h1, .h1 {
+  font-size: $ms6;
+}
+
+h2, .h2 {
+  font-size: $ms5;
+}
+
+h3, .h3 {
+  font-size: $ms4;
+}
+
+h4, .h4 {
+  font-size: $ms3;
+}
+
+h5, .h5 {
+  font-size: $ms2;
+}
+
+h6, .h6 {
+  font-size: $ms1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
